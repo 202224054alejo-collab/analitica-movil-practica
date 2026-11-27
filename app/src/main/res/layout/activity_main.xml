@@ -47,4 +47,19 @@
         android:layout_height="wrap_content"
         android:text="@string/texto_boton" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvResultadosApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sin datos descargados"
+        android:textSize="16sp" />
+
 </LinearLayout>
